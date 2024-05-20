@@ -1,7 +1,12 @@
+import Layout from "./components/Layout.jsx";
+import Todocontainer from "./components/Todocontainer.jsx";
+
 export default function App() {
   return (
-    <>
-      <h1>투두리스트 타임어택</h1>
-    </>
+    <div>
+      <Layout>
+        <Todocontainer />
+      </Layout>
+    </div>
   );
 }
